@@ -1,0 +1,7 @@
+# Working files not part of the deployed site
+style 3/
+Stock images/
+*.csv
+image_161c966c.jpg
+.DS_Store
+Thumbs.db
