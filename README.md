@@ -31,14 +31,14 @@ Each page lives in its own folder as an `index.html`, so it is served at a clean
 - `sitemap.xml`, `robots.txt` and `site.webmanifest`
 - Favicon set: `favicon.ico` (16 to 64px), PNG icons (16, 32, 256px), Apple touch icon and 512px PWA icon, all cut from the logo emblem
 - Local stock photography in `images/` plus curated Unsplash imagery matched to each service
-- Scroll-reveal animations, FAQ accordions and a quote request form
+- BookingKoala booking embed on the home page (`#book`). `embed.js` is intentionally not loaded: the iframe uses a fixed `100dvh` height with `scrolling="yes"`, so the form scrolls internally and its modals appear in view, just like opening the booknow URL in a tab (works on iOS)
+- Scroll-reveal animations and FAQ accordions
 
 ## Things to update before launch
 
 - **Domain**: all canonical URLs, Open Graph tags, `sitemap.xml` and `robots.txt` currently use `https://cnprestigecleaning.com`. Search and replace if the final domain differs.
 - **Phone number**: no business phone is shown yet. Add it to the contact section and footer once confirmed.
 - **Email**: `info@cnprestigecleaning.com` is a placeholder. Replace with the real inbox.
-- **Quote form**: currently opens the visitor's email app with the request pre-filled (no backend). Wire it to a form service or booking embed when ready.
 - **Service areas**: confirm the exact San Antonio and DFW cities served.
 - **Reviews**: the testimonials are starter copy. Swap in real Google reviews when available.
 - **Social links**: none are included yet. Add Facebook, Instagram or Google Business links to the footer as needed.

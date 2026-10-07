@@ -57,6 +57,7 @@
   details > summary::-webkit-details-marker { display:none; }
   details[open] .faq-icon { transform: rotate(45deg); }
   .faq-icon { transition: transform .2s ease; }
+  .booking-frame { display:block; width:100%; height:100vh; height:100dvh; border:0; }
   #mobile-menu { max-height:0; overflow:hidden; transition:max-height .3s ease; }
   #mobile-menu.open { max-height:720px; overflow-y:auto; }
   @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } }
@@ -155,7 +156,7 @@
       <a class="text-ink hover:text-violet transition-colors" href="../#contact">Contact</a>
     </nav>
     <div class="flex items-center gap-2 sm:gap-3">
-      <a href="../#contact" class="btn-grad hidden sm:inline-flex items-center gap-2 rounded-full px-5 md:px-6 py-2.5 font-head text-[11px] uppercase tracking-widest text-white font-semibold transition shadow-sm">Free Quote</a>
+      <a href="../#book" class="btn-grad hidden sm:inline-flex items-center gap-2 rounded-full px-5 md:px-6 py-2.5 font-head text-[11px] uppercase tracking-widest text-white font-semibold transition shadow-sm">Book Now</a>
       <button id="menu-btn" type="button" class="lg:hidden p-2 -mr-2 text-ink rounded-lg hover:bg-lavender" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span class="material-symbols-outlined text-3xl" id="menu-icon">menu</span></button>
     </div>
   </div>
@@ -168,7 +169,7 @@
       <a class="py-2 text-ink" href="../#areas">Service Areas</a>
       <a class="py-2 text-ink" href="../#reviews">Reviews</a>
       <a class="py-2 text-ink" href="../#contact">Contact</a>
-      <a href="../#contact" class="btn-grad mt-3 inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[11px] uppercase tracking-widest text-white">Get a Free Quote</a>
+      <a href="../#book" class="btn-grad mt-3 inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[11px] uppercase tracking-widest text-white">Book Now</a>
     </nav>
   </div>
 </header>
@@ -180,7 +181,7 @@
     <nav class="font-head uppercase tracking-widest text-[11px] text-white/70 mb-5" aria-label="Breadcrumb"><a href="../" class="hover:text-white">Home</a> <span class="mx-1">/</span> <span class="text-lilac">Vacation Rental / Airbnb Cleaning</span></nav>
     <h1 class="font-head font-extrabold text-4xl sm:text-5xl md:text-6xl leading-[1.05] tracking-tight">Vacation Rental / Airbnb Cleaning</h1>
     <p class="mx-auto mt-6 max-w-2xl text-white/85 text-base md:text-lg leading-relaxed">Five-star turnovers that keep your reviews glowing and your calendar full.</p>
-    <div class="mt-9"><a href="../#contact" class="btn-grad inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 font-head uppercase tracking-widest text-xs sm:text-sm text-white font-semibold transition shadow-sm ">Get a Free Quote <span class="material-symbols-outlined text-base">arrow_forward</span></a></div>
+    <div class="mt-9"><a href="../#book" class="btn-grad inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 font-head uppercase tracking-widest text-xs sm:text-sm text-white font-semibold transition shadow-sm ">Book Now <span class="material-symbols-outlined text-base">arrow_forward</span></a></div>
   </div>
 </section>
 
@@ -214,7 +215,7 @@
       <span class="font-head uppercase tracking-[0.3em] text-xs text-violet font-semibold">Perfect For</span>
       <h2 class="mt-3 font-head font-extrabold text-2xl md:text-3xl text-plum tracking-tight">Who This Service Is For</h2>
       <ul class="mt-6 space-y-3 text-stone-700"><li class="flex items-start gap-3"><span class="material-symbols-outlined text-violet">arrow_right</span>Airbnb and VRBO hosts</li><li class="flex items-start gap-3"><span class="material-symbols-outlined text-violet">arrow_right</span>Property managers with multiple listings</li><li class="flex items-start gap-3"><span class="material-symbols-outlined text-violet">arrow_right</span>Corporate and mid-term rentals</li><li class="flex items-start gap-3"><span class="material-symbols-outlined text-violet">arrow_right</span>Owners who live out of town</li></ul>
-      <div class="mt-8"><a href="../#contact" class="btn-grad inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 font-head uppercase tracking-widest text-xs sm:text-sm text-white font-semibold transition shadow-sm ">Request a Quote <span class="material-symbols-outlined text-base">arrow_forward</span></a></div>
+      <div class="mt-8"><a href="../#book" class="btn-grad inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 font-head uppercase tracking-widest text-xs sm:text-sm text-white font-semibold transition shadow-sm ">Book This Service <span class="material-symbols-outlined text-base">arrow_forward</span></a></div>
     </div>
     <div class="reveal">
       <span class="font-head uppercase tracking-[0.3em] text-xs text-violet font-semibold">FAQ</span>
@@ -234,8 +235,8 @@
 <section class="relative py-20 md:py-28 px-4 sm:px-6 md:px-10 text-center overflow-hidden bg-plum">
   <div class="relative mx-auto max-w-3xl text-white">
     <h2 class="font-head font-extrabold text-3xl md:text-5xl tracking-tight">Ready for a <span class="text-lilac">Prestige Clean?</span></h2>
-    <p class="mt-5 text-white/80">Request a free, no-pressure quote and we will take it from there.</p>
-    <div class="mt-8"><a href="../#contact" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-10 py-4 font-head uppercase tracking-widest text-sm text-plum font-semibold hover:bg-lavender transition shadow-sm">Get a Free Quote <span class="material-symbols-outlined text-base">arrow_forward</span></a></div>
+    <p class="mt-5 text-white/80">Book online in minutes with instant pricing, or reach out with any questions.</p>
+    <div class="mt-8"><a href="../#book" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-10 py-4 font-head uppercase tracking-widest text-sm text-plum font-semibold hover:bg-lavender transition shadow-sm">Book Your Cleaning <span class="material-symbols-outlined text-base">arrow_forward</span></a></div>
   </div>
 </section>
 </main>
@@ -263,7 +264,7 @@
     <div>
       <h5 class="font-head uppercase tracking-widest text-xs text-plum font-bold mb-5">Contact</h5>
       <ul class="space-y-3 text-sm">
-        <li><a class="text-stone-600 hover:text-violet transition" href="../#contact">Request a Free Quote</a></li>
+        <li><a class="text-stone-600 hover:text-violet transition" href="../#book">Book Online</a></li>
         <li><a class="text-stone-600 hover:text-violet transition break-all" href="mailto:info@cnprestigecleaning.com">info@cnprestigecleaning.com</a></li>
         <li class="text-stone-600">San Antonio, TX</li>
         <li class="text-stone-600">Dallas-Fort Worth, TX</li>
